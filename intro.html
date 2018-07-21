@@ -1,0 +1,39 @@
+<html>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<body>
+	    
+<div id="sidebar1" style="width:200px;font-size:20px;float:left;margin-left:0px;font-family: 'Indie Flower'; ">
+  <div style=" border-bottom: 1px solid black;">
+  <div id="menu">
+  <ul>
+    <li><a href=".html">------Citizen------</a></li>
+    <li><a href="casio.html" target="iframe_123">------Casio------</a></li>
+    <li><a href="jaxquens.html" target="iframe_123">---Jaxquens------</a></li>
+    <li><a href="sunrise.html" target="iframe_123">----Sunrise------</a></li>
+    <li><a href="titan.html" target="iframe_123">------Titan------</a></li>
+    <li><a href="seiko.html" target="iframe_123">------Seiko------</a></li>
+</div>
+</div>
+</div>
+		
+<div style="margin-top:10px;font-family: 'Indie Flower', cursive;width: 1110px ">
+        <img name="myimage" src="intro/image1.jpg" style="width:780px;height:550px;margin-left:50px;" />
+		</div>
+  <script type="text/javascript">
+        window.onload = function(){
+        setTimeout("switchImage()", 3000);
+        }
+        var current = 1;
+        var numIMG = 5;
+        function switchImage(){
+        current++;
+        document.images['myimage'].src ='intro/image' + current + '.jpg';
+        if(current == numIMG)
+          {
+            current =0;
+          }
+        setTimeout("switchImage()", 3000);
+        }
+   </script> 
+   </body>
+</html>

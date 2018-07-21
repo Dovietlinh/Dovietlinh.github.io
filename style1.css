@@ -1,0 +1,112 @@
+ body{
+	 background-color:#777777;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    li {
+      float:left;
+    }
+    li a, .dropbtn {
+      
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li a:hover, .dropdown:hover .dropbtn {
+    }
+    li.dropdown {
+    display: inline-block;
+    }
+    .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    .dropdown-content a:hover {background-color:rgb(70, 64, 59) }
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    .canle {
+      padding: 100px;
+      }
+    a:link {
+    color: while;
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:visited {
+    color: while;
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:hover {
+    color:#D3D3D3;
+    background-color: transparent;
+    
+    }
+    a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    .possti{
+      position: fixed;
+      padding-top:2px;}
+      table, th, td {
+    border: 0px black;
+      }
+      p.solid {border-style: solid;}
+      input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+a{text-align:center;}
+
+
+
+#menu ul {
+  background: black;
+  width: 200px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  width: auto;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+}
+#menu li a {
+  text-decoration: none;
+  color: while ;
+  font-weight: bold;
+  display: block;
+}
